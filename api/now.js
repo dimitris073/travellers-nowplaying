@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
 export default async function handler(req, res) {
-  const STREAM_URL = "http://s41.myradiostream.com:30014/7.html";
+ const STREAM_URL = "http://s41.myradiostream.com/7.html";
 
   try {
     const response = await fetch(STREAM_URL, { timeout: 5000 });
